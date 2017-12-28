@@ -26,6 +26,6 @@
         "CommonName": "str",
         "Email": "email",
         "cerfile": "str",
-        "keyfile": "privkey.pem"
+        "keyfile": "str"
     }
 }
