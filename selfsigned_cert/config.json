@@ -1,6 +1,6 @@
 {
     "name": "Self-Signed Certificate",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "map": ["ssl:rw"],
     "slug": "selfsigned_cert",
     "description": "Create self-signed certificates.",
@@ -14,7 +14,7 @@
         "OrganizationalUnit": null,
         "CommonName": "hassio.local",
         "Email": null,
-        "cerfile": "certificate.pem",
+        "certfile": "certificate.pem",
         "keyfile": "privkey.pem"
     },
     "schema": {
@@ -25,7 +25,7 @@
         "OrganizationalUnit": "str",
         "CommonName": "str",
         "Email": "email",
-        "cerfile": "str",
+        "certfile": "str",
         "keyfile": "str"
     }
 }
